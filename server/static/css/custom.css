@@ -1,0 +1,21 @@
+
+.sidebar {
+    background-color: #34495e!important;
+}
+
+a.disabled {
+    pointer-events: none;
+    color: #ccc;
+}
+
+.sidebar .logo {
+    height: 40px;
+    -webkit-filter: brightness(0) invert(1);
+	filter: brightness(0) invert(1);
+}
+
+table {
+    table-layout: fixed;
+}
+
+
