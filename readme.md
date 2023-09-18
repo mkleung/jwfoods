@@ -26,6 +26,8 @@ npm i --save @fortawesome/react-fontawesome
 
 # Run the React Client and Server
 
+npm start
+
 Add this code inside package.json of client folder to enable react to use local server
 
 ```
@@ -37,6 +39,15 @@ npm start
 
 # Inside Server use:
 python3 server.py
+
+or
+
+python server.py
+
+or
+
+flask --app server run
+
 
 # Import MongoDB
 
