@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/jwfoods/static/css/main.cd8ec6c4.css",
-    "main.js": "/jwfoods/static/js/main.d9c96042.js",
+    "main.css": "/jwfoods/static/css/main.51eaf548.css",
+    "main.js": "/jwfoods/static/js/main.4e9e56b1.js",
     "static/media/bg-masthead.jpg": "/jwfoods/static/media/bg-masthead.1fc1d4f0182ebb647253.jpg",
     "static/media/food1.jpg": "/jwfoods/static/media/food1.ad4cab32deb2ba9a8c7f.jpg",
     "static/media/food2.jpg": "/jwfoods/static/media/food2.43ad28bc74cde17f58ca.jpg",
@@ -9,11 +9,11 @@
     "static/media/download.png": "/jwfoods/static/media/download.9423f9cf17b1b0505c09.png",
     "static/media/toronto.png": "/jwfoods/static/media/toronto.99af2d7ec96ab92f2c92.png",
     "index.html": "/jwfoods/index.html",
-    "main.cd8ec6c4.css.map": "/jwfoods/static/css/main.cd8ec6c4.css.map",
-    "main.d9c96042.js.map": "/jwfoods/static/js/main.d9c96042.js.map"
+    "main.51eaf548.css.map": "/jwfoods/static/css/main.51eaf548.css.map",
+    "main.4e9e56b1.js.map": "/jwfoods/static/js/main.4e9e56b1.js.map"
   },
   "entrypoints": [
-    "static/css/main.cd8ec6c4.css",
-    "static/js/main.d9c96042.js"
+    "static/css/main.51eaf548.css",
+    "static/js/main.4e9e56b1.js"
   ]
 }
