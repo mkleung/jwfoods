@@ -3,6 +3,31 @@ import food1 from '../assets/img/food1.jpg'
 import food2 from '../assets/img/food2.jpg'
 import food3 from '../assets/img/food3.jpg'
 
+
+const Image = ({ width = '100%', height = '100%', lowResSrc, highResSrc }) => {
+
+    const styles = {
+      wrapper: {
+        position: 'relative',
+        width,
+        height,
+      },
+      image: {
+        position: 'absolute',
+        width: '100%',
+        height: '100%',
+      },
+    }
+    
+   return (
+     <div style={styles.wrapper}>
+      <img src={lowResSrc} style={styles.image} />
+      <img src={highResSrc} style={styles.image} />
+     </div>
+   )
+ }
+
+
 const MealServices = () => (
     <section className="services page-section py-6" id="services">
         <div className="container px-4 px-lg-5">
@@ -10,6 +35,12 @@ const MealServices = () => (
             <hr className="divider" />
             <div className="row gx-4 gx-lg-5">
                 <div className="col-lg-4 col-md-4 text-center">
+
+                    {/* <Image  width={300}
+ height={300}
+ lowResSrc='https://via.placeholder.com/150'
+ highResSrc={'https://via.placeholder.com/600'}
+/> */}
 
                     <div className="card">
                         <img className="card-img-top" src={food1} alt="Food" />

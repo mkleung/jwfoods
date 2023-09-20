@@ -63,6 +63,13 @@ h3 {
 	height: 80px;
 }
 
+ .test {
+	background-color: white;
+	margin-top:100px;
+	padding: 50px;
+	opacity: 0.9;
+	border-radius: 25px;
+}
 
 /* About
    ----------------------------- */

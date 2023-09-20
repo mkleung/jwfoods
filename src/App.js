@@ -10,6 +10,8 @@ import Contact from './components/Contact'
 import Footer from './components/Footer'
 
 
+
+
 function App() {
 
     // This function runs when the page first loads
@@ -38,6 +40,8 @@ function App() {
             <Navbar />
             <Header />
             <About />
+
+
             <MealServices />
             <Calculator />
             <Contact />
