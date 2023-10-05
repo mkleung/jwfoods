@@ -1,54 +1,53 @@
-{% include "header.html" %}
+<html>
 
-<!-- Begin Page Content -->
-<div class="container-fluid">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <!-- Content Row -->
-  <div class="row">
-    <!-- Area Chart -->
-    <div class="col-xl-8 col-lg-7">
-      <div class="card shadow mb-4">
-        <!-- Card Header - Dropdown -->
-        <div class="card-header py-3 d-flex flex-row align-items-center justify-content-between">
-          <h6 class="m-0 font-weight-bold text-primary">Login </h6>
-        </div>
-        <!-- Card Body -->
-        <div class="card-body">
-          <form action='login' method='POST'>
-            username &nbsp;<input type='text' name='email' id='email' placeholder='student@ryerson.ca' /><br /> &nbsp;
-            <br />
-            password &nbsp;<input type='password' name='password' id='password' placeholder='' /><br /> &nbsp;
-            <br />
-            <input type='submit' class="btn btn-primary" name='submit' />
-          </form>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css"
+    integrity="sha512-dTfge/zgoMYpP7QbHy4gWMEGsbsdZeCXz7irItjcC3sPUFtf0kuFbDz/ixG7ArTxmDjLXDmezHubeNikyKGVyQ=="
+    crossorigin="anonymous">
+  <title>JW Foods Admin Section</title>\
+</head>
+<body>
 
-
-          {% if message %}
-          <hr>
-          <div class="alert alert-success" role="alert">
-            {{ message }}
-          </div>
-          {% endif %}
-
-          {% if error %}
-          <hr>
-          <div class="alert alert-danger" role="alert">
-            {{ error }}
-          </div>
-          {% endif %}
-        </div>
+  <nav class="navbar navbar-inverse">
+    <div class="container">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar"
+          aria-expanded="false" aria-controls="navbar">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand" href="#">JW foods admin section</a>
       </div>
     </div>
+  </nav>
 
 
-  </div>
-</div>
-<!-- End of Content Wrapper -->
+  <div class="container">
+    {% for comment in comments %}
+    <div class="row">
+      {{ comment.content }}
+    </div>
+    {% endfor %}
 
-</div>
-<!-- End of Page Wrapper -->
+    <div class="row">
+  
+      <div class="col-md-4">
+        <h3>Login</h3>
+        <hr />
+        <a href="/login">here</a>
+
+      </div>
 
 
+    </div>
+
+  </div><!-- /.container -->
 </body>
 
 </html>

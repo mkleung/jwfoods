@@ -1,4 +1,6 @@
-
+body {
+    background-color: red;
+}
 .sidebar {
     background-color: #34495e!important;
 }

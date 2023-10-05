@@ -11,8 +11,10 @@ npm start
 ### To run the flask server
 
 pip install flask
+pip install flask-login
 
-flask --app server run
+
+flask --app flask_app run
 
 Go to http://127.0.0.1:5000
 
